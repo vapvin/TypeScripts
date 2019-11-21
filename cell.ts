@@ -1,3 +1,5 @@
+// TYPE SCRIPT
+
 interface Cell {
   row: number;
   col: number;
