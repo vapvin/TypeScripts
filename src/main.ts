@@ -31,3 +31,15 @@ const cart2 = new Cart({ name: "jay" });
 let foo: any = {};
 foo["hello"] = "World";
 console.log(foo["hello"]);
+
+class Foo {
+  constructor(public message: string) {}
+  log() {
+    console.log(this.message);
+  }
+}
+
+let foo: any = {};
+
+foo["Hello"] = new Foo("World");
+foo["Hello"].log();
