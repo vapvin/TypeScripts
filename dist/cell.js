@@ -1,18 +1,19 @@
+// TYPE SCRIPT
 function createBoard() {
-    var cells = [];
-    for (var row = 0; row < 4; row++) {
-        for (var col = 0; col < 3; col++) {
+    const cells = [];
+    for (let row = 0; row < 4; row++) {
+        for (let col = 0; col < 3; col++) {
             cells.push({
-                row: row,
-                col: col
+                row,
+                col
             });
         }
     }
     return cells;
 }
-var board = createBoard();
+const board = createBoard();
 board[0].piece = {
-    move: function (from, to) {
+    move(from, to) {
         return true;
     }
 };
