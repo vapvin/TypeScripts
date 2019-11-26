@@ -1,5 +1,3 @@
-let store: any = {};
-
 interface User {
   name: string;
 }
