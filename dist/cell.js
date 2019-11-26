@@ -1,4 +1,3 @@
-// TYPE SCRIPT
 function createBoard() {
     const cells = [];
     for (let row = 0; row < 4; row++) {
@@ -17,3 +16,4 @@ board[0].piece = {
         return true;
     }
 };
+//# sourceMappingURL=cell.js.map
