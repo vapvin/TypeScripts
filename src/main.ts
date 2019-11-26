@@ -43,3 +43,9 @@ let foo: any = {};
 
 foo["Hello"] = new Foo("World");
 foo["Hello"].log();
+
+class KoreanCart extends Cart {
+  say() {
+    console.log("안녕 친구들 난 한국인이야");
+  }
+}
