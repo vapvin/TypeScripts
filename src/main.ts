@@ -27,3 +27,7 @@ class Cart {
 
 const cart1 = new Cart({ name: "john" });
 const cart2 = new Cart({ name: "jay" });
+
+let foo: any = {};
+foo["hello"] = "World";
+console.log(foo["hello"]);
