@@ -10,3 +10,9 @@ const c: Props = {
 };
 
 c[3];
+
+interface Cell {
+  row: number;
+  col: number;
+  piece?: Piece;
+}
