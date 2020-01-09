@@ -12,3 +12,11 @@ stringValue = '';
 boolValue = false;
 undefinedValue = undefined;
 nullValue = null;
+
+objValue = function() {
+  console.log('HELLO WORLD');
+};
+
+let nameList: string[];
+
+nameList = ['list', 'coms', 'test', 'types', 'Assembly', 'Rust'];
