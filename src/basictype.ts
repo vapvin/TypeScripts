@@ -20,3 +20,10 @@ objValue = function() {
 let nameList: string[];
 
 nameList = ['list', 'coms', 'test', 'types', 'Assembly', 'Rust'];
+
+let usr1: { name: string; age: number };
+
+usr1 = {
+  name: ' Hus',
+  age: 31
+};
