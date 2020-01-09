@@ -1,13 +1,18 @@
 var score1 = 0;
-let score2 = 1;
+let score2 = 200;
 
 const defaultScore = 10;
 
 function outer() {
-  function inner() {
+  if (true) {
     var score = 0;
   }
 
+  for (var i = 0; i < 3; i++) {
+    setTimeout(function() {
+      console.log(i);
+    }, 100);
+  }
   console.log(score);
 }
 
